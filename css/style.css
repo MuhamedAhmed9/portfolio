@@ -129,6 +129,18 @@ ul {
   margin-top: 8px;
   background-color: var(--skin-color);
 }
+.d-block {
+  display: block;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.w-50 {
+  width: 50%;
+}
+.bl-wh-mode {
+  color: var(--text-black-700);
+}
 /* start aside */
 .aside {
   position: fixed;
@@ -360,16 +372,31 @@ span.typing {
   height: 6px;
 }
 .about .about-content .skills .skill-item:nth-of-type(1) .progress::before {
-  width: 85%;
+  width: 90%;
 }
 .about .about-content .skills .skill-item:nth-of-type(2) .progress::before {
-  width: 77%;
+  width: 85%;
 }
 .about .about-content .skills .skill-item:nth-of-type(3) .progress::before {
-  width: 89%;
+  width: 75%;
 }
 .about .about-content .skills .skill-item:nth-of-type(4) .progress::before {
-  width: 95%;
+  width: 80%;
+}
+.about .about-content .skills .skill-item:nth-of-type(5) .progress::before {
+  width: 90%;
+}
+.about .about-content .skills .skill-item:nth-of-type(6) .progress::before {
+  width: 85%;
+}
+.about .about-content .skills .skill-item:nth-of-type(7) .progress::before {
+  width: 65%;
+}
+.about .about-content .skills .skill-item:nth-of-type(8) .progress::before {
+  width: 70%;
+}
+.about .about-content .skills .skill-item:nth-of-type(9) .progress::before {
+  width: 80%;
 }
 .about .about-content .skills .skill-item h5 {
   font-size: 1rem;
@@ -499,6 +526,10 @@ span.typing {
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
+  height: 100%;
+}
+.portfolio .portfolio-item-inner .portfolio-img {
+  height: 100%;
 }
 .portfolio .portfolio-item-inner img {
   width: 100%;

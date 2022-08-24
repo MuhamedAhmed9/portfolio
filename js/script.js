@@ -60,11 +60,11 @@ var typed = new Typed(".typing", {
   strings: [
     "",
     "Front-End Developer",
-    "back-end Developer",
-    "Graphic Designer",
+    // "back-end Developer",
+    // "Graphic Designer",
   ],
-  typeSpeed: 100,
-  BackSpeed: 60,
+  typeSpeed: 70,
+  BackSpeed: 40,
   loop: true,
 });
 //---------------------------------------------------------------------------------
